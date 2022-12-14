@@ -55,7 +55,7 @@ function uploadRover(){
        
     }
     function down(){
-        if (roverY<=600) {
+        if (roverY<=500) {
             roverY= roverY+10
             uploadBackground()
             uploadRover()    
@@ -64,7 +64,7 @@ function uploadRover(){
     }
 
     function right(){
-       if (roverX<=800) {
+       if (roverX<=700) {
         roverX= roverX+10
         uploadBackground()
         uploadRover()
